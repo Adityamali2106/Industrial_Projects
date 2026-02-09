@@ -1,0 +1,33 @@
+#C++ Generalized Data Structure Library
+A robust, template-based C++ library providing generic implementations of essential data structures. 
+This project demonstrates advanced C++ concepts including Object-Oriented Programming (OOP), Template
+Programming, and manual Memory Management.
+
+#Overview
+This library provides a "Generalised Approach," allowing the data structures to handle any data type 
+(int, char, float, double, or custom objects) using C++ templates. It serves as a comprehensive toolkit
+for developers needing efficient, reusable data management components.
+
+#Features
+The library includes full implementations for the following structures:
+
+# Linear Data Structures 
+## Linked Lists
+Singly Linear Linked List: Standard node-based list with forward traversal.
+
+Singly Circular Linked List: Last node points back to the first, ideal for circular buffering.
+
+Doubly Linear Linked List: Nodes contain pointers to both next and previous elements.
+
+Doubly Circular Linked List: Bidirectional traversal with a circular structure.
+
+Stack: LIFO (Last-In-First-Out) implementation with push, pop, and peep operations.
+
+Queue: FIFO (First-In-First-Out) implementation with enqueue and dequeue operations.
+
+# Technical Highlights
+Generic Programming: Utilizes template <class T> to ensure type independence.
+
+Manual Memory Management: Efficient use of new and delete operators to prevent memory leaks.
+
+OOP Principles: Strict adherence to Encapsulation (private/public members) and Abstraction.
