@@ -44,9 +44,10 @@ class SinglyLLL
         void DeleteAll();
         void PhysicalReverse();
         void ReverseDisplay();
-        int SearchFirstOccurrence(int);
-        int SearchLastOccurrence(int);
-        int SearchAllOccurrence(int);
+        int SearchFirstOccurrence(T);
+        int SearchLastOccurrence(T);
+        int SearchAllOccurrence(T);
 };  // End of Class Diclaration
 
 #include "singly_linked_list.cpp"
+
