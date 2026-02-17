@@ -1,7 +1,7 @@
 #include "Singly_linked_list.hpp"
 
 template <typename T>
-void DiaplyManue() {
+void DisplayMenue() {
     SinglyLLL<T> *sobj = new SinglyLLL<T>();
     int iChoice = 0, iPos = 0;
     T data;
@@ -112,19 +112,19 @@ int main() {
 
     if (strcmp(Datatype, "Integer") == 0) 
     {
-        DiaplyManue<int>();
+        DisplayMenue<int>();
     } 
     else if (strcmp(Datatype, "Charactor") == 0) 
     {
-        DiaplyManue<char>();
+        DisplayMenue<char>();
     } 
     else if (strcmp(Datatype, "float") == 0) 
     {
-        DiaplyManue<float>();
+        DisplayMenue<float>();
     } 
     else if (strcmp(Datatype, "Double") == 0) 
     {
-        DiaplyManue<double>();
+        DisplayMenue<double>();
     } 
     else 
     {
@@ -134,3 +134,4 @@ int main() {
     return 0;
 
 }
+
