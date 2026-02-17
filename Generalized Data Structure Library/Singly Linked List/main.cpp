@@ -1,7 +1,7 @@
 #include "Singly_linked_list.hpp"
 
 template <typename T>
-void RunList() {
+void DiaplyManue() {
     SinglyLLL<T> *sobj = new SinglyLLL<T>();
     int iChoice = 0, iPos = 0;
     T data;
@@ -110,21 +110,27 @@ int main() {
     cout << "Enter the datatype (Integer, Charactor, float, Double): ";
     cin >> Datatype;
 
-    if (strcmp(Datatype, "Integer") == 0) {
-        RunList<int>();
+    if (strcmp(Datatype, "Integer") == 0) 
+    {
+        DiaplyManue<int>();
     } 
-    else if (strcmp(Datatype, "Charactor") == 0) {
-        RunList<char>();
+    else if (strcmp(Datatype, "Charactor") == 0) 
+    {
+        DiaplyManue<char>();
     } 
-    else if (strcmp(Datatype, "float") == 0) {
-        RunList<float>();
+    else if (strcmp(Datatype, "float") == 0) 
+    {
+        DiaplyManue<float>();
     } 
-    else if (strcmp(Datatype, "Double") == 0) {
-        RunList<double>();
+    else if (strcmp(Datatype, "Double") == 0) 
+    {
+        DiaplyManue<double>();
     } 
-    else {
+    else 
+    {
         cout << "Invalid Data Type!" << endl;
     }
 
     return 0;
+
 }
