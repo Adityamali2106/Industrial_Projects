@@ -1,0 +1,32 @@
+# Singly Circular Linked List Manager
+A high-performance, template-based C++ implementation of a Singly Circular Linked List. This project utilizes
+Generic Programming to provide a versatile data structure capable of handling various primitive data types
+(Integer, Character, Float, Double) through a single, unified codebase.
+
+# Overview
+This application implements a circular linear data structure where the traversal is unidirectional but infinite,
+as the tail of the list is linked back to the head. By leveraging C++ templates, the system ensures strict type
+safety while allowing the user to decide the data format at runtime. The architecture follows modular programming
+principles, splitting the declaration, implementation, and user interface into distinct files.
+
+# Key Features
+Circular Unidirectional Traversal: Support for continuous looping through the list, effectively eliminating "null" terminations.
+Generic Architecture: Implemented using C++ templates to support multiple data types (int, char, float, double) seamlessly.
+Dynamic Operations: Full support for insertion and deletion at the beginning, end, or any specific position within the list.
+Analytical Functions: Built-in tools to search for the first, last, or all occurrences of specific data.\
+Structural Modification: Features a physical reverse algorithm that reorders the actual pointers of the circular list.
+Memory Management: Comprehensive cleanup routines to prevent memory leaks by deallocating all nodes upon request.
+
+# Project Structure
+The project is organized into three distinct layers:
+Singly_Circular_Linked_List.hpp: The header file containing the node and list class declarations.
+Singly_Circular_Linked_List.cpp: The implementation file containing the algorithmic logic for circular list manipulations.
+main.cpp: The client interface containing the menu-driven system and the entry point of the application.
+
+# Usage
+Type Selection: Upon startup, enter the desired data type (e.g., Integer, Charactor, float, or Double).
+Operation Menu: Choose from 15 available operations, including node insertion, deletion, searching, and physical reversal.
+Feedback: The program provides clear console output for every action, including list state displays and current node counts.
+
+# Author
+Aditya Vijay Mali
