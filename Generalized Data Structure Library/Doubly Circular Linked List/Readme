@@ -1,0 +1,32 @@
+# Generic Doubly Circular Linked List
+A high-performance, template-based C++ implementation of a Doubly Circular Linked List. This project utilizes Generic Programming
+to provide a versatile data structure capable of handling various primitive data types (Integer, Character, Float, Double) through 
+a single, unified codebase.
+
+# Overview
+This application implements a circular bidirectional linear data structure where the last node points back to the first and
+the first node points back to the last. By leveraging C++ templates, the system ensures strict type safety while allowing the 
+user to decide the data format at runtime. The architecture follows modular programming principles, splitting the declaration,
+implementation, and user interface into distinct files.
+
+# Key Features
+Circular Bidirectional Traversal: Support for continuous looping through the list in both forward and backward directions.
+Generic Architecture: Implemented using C++ templates to support multiple data types (int, char, float, double) seamlessly.
+Dynamic Operations: Full support for insertion and deletion at the beginning, end, or any specific position within the list.
+Analytical Functions: Built-in tools to search for the first, last, or all occurrences of specific data.
+Structural Modification: Features a physical reverse algorithm that reorders the actual pointers of the list.
+Memory Management: Comprehensive cleanup routines to prevent memory leaks by deallocating all nodes upon request.
+
+# Project Structure
+The project is organized into three distinct layers:
+Doubly_Circular_linked_list.hpp: The header file containing the DoublyCLLnode and DoublyCLL class declarations.
+Doubly_Circular_linked_list.cpp: The implementation file containing the algorithmic logic for all circular list manipulations.
+main.cpp: The client interface containing the menu-driven system and the entry point of the application.
+
+# Usage
+Type Selection: Upon startup, enter the desired data type (e.g., Integer, Charactor, float, or Double).
+Operation Menu: Choose from 15 available operations, including node insertion, deletion, searching, and list reversal.
+Feedback: The program provides clear console output for every action, including list state displays and node counts.
+
+👤 Author
+Aditya Vijay Mali
