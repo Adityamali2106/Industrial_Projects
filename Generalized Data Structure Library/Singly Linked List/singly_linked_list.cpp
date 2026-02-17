@@ -397,7 +397,7 @@ void SinglyLLL<T> :: ReverseDisplay()
 ///////////////////////////////////////////////////////////////////////////////////
 
 template <class T>
-int SinglyLLL<T> :: SearchFirstOccurrence(int iKey)
+int SinglyLLL<T> :: SearchFirstOccurrence(T iKey)
 {
 	int iCnt = 0;
     int iPos = 0;
@@ -426,7 +426,7 @@ int SinglyLLL<T> :: SearchFirstOccurrence(int iKey)
 ///////////////////////////////////////////////////////////////////////////////////
 
 template <class T>
-int SinglyLLL<T> :: SearchLastOccurrence(int iKey)
+int SinglyLLL<T> :: SearchLastOccurrence(T iKey)
 {
 	int iPos = 0;
 	int iLastPos = 0;
@@ -455,7 +455,7 @@ int SinglyLLL<T> :: SearchLastOccurrence(int iKey)
 ///////////////////////////////////////////////////////////////////////////////////
 
 template <class T>
-int SinglyLLL<T> :: SearchAllOccurrence(int iKey)
+int SinglyLLL<T> :: SearchAllOccurrence(T iKey)
 {
 	int iPos = 0;
 	int iCount = 0;
@@ -472,4 +472,5 @@ int SinglyLLL<T> :: SearchAllOccurrence(int iKey)
 
 	return iCount;
 }   // End of SearchAllOccurrence
+
 
