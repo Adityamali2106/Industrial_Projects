@@ -1,0 +1,37 @@
+Kernel Interface Utility Suite
+
+Technology: C Programming, Linux System Programming, Native System Calls
+
+• Project Overview
+    • This project is a custom-built Kernel Interface Utility Suite that programmatically implements major Linux commands using native system calls.
+    • Instead of relying on existing GNU utilities, we developed our own versions of important commands to understand their internal working at the OS level.
+    • All commands are enhanced with additional features for improved user interaction and customization.
+    • The executables are integrated into the system path, replacing default utilities for learning purposes,and each command is uniquely 
+      identified with the postfix letter "x" (e.g., 1sx, pwdx, cpx).
+    • This project densonstrates deep understanding of Linux internals, system calls, file systems, and process management.
+
+• System-Level Integration
+
+    • All executables compiled and placed in system path
+    • Commands usable directly from terminal
+    • Postfix naming convention (x)
+    • Executable permissions properly managed
+
+• Architecture Design
+
+    • Modular implementation (one command per file)
+    • Common utility module for shared functions
+    • System call abstraction where required
+    • Structured error reporting
+    • 
+• Learning Outcomes
+
+    • Deep understanding of Linux system calls
+    • Clear knowledge of how Linux commands actually work internally
+    • File descriptor management
+    • Directory handling and inode concepts
+    • Process creation and execution flow
+    • Memory and resource management
+    • Building real system utilities from scratch
+    • Understanding PATH variable and executable resolution
+    • Hands-on exposure to OS-level programming
